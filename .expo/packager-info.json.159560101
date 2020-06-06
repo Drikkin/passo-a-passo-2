@@ -1,0 +1,10 @@
+{
+  "packagerPort": 19001,
+  "packagerPid": 5700,
+  "expoServerNgrokUrl": "https://p4-qpr.drikkin.passo-a-passo.exp.direct",
+  "packagerNgrokUrl": "https://packager.p4-qpr.drikkin.passo-a-passo.exp.direct",
+  "ngrokPid": 9728,
+  "devToolsPort": 19002,
+  "expoServerPort": null,
+  "webpackServerPort": null
+}

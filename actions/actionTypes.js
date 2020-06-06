@@ -1,0 +1,11 @@
+export const USER_DATA = 'USER_DATA';
+export const INITIAL_DATA = 'INITIAL_DATA';
+export const NOTIF_DATA = 'NOTIF_DATA';
+export const NEWS_DATA = 'NEWS_DATA';
+export const EVENTS_DATA = 'EVENTS_DATA';
+export const VOUCHERS_LIST = 'VOUCHERS_LIST';
+export const SECTOR = 'SECTOR';
+export const HEADER = 'HEADER';
+export const CATEGORIES = 'CATEGORIES';
+export const LOGIN_MODAL = 'LOGIN_MODAL';
+export const SEARCH_DATA = 'SEARCH_DATA';

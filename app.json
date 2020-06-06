@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Passo a Passo",
+    "slug": "passo-a-passo",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.5.2",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/images/plano-de-fundo/plano-de-fundo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#00003e"
+    },
+    "notification": {
+      "icon": "./assets/android-notif-icon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.agenciaprospecta.PassoAPasso",
+      "supportsTablet": false,
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "comgooglemaps",
+          "google-maps",
+          "citymapper",
+          "uber",
+          "lyft",
+          "waze"
+        ]
+      }
+    },
+    "android": {
+      "package": "br.com.mobs.passoapasso",
+      "versionCode": 32,
+      "permissions": []
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "pipter",
+            "project": "passo-a-passo",
+            "authToken": "730f04f8f68f485c94da2592b45f364433feaed29c9741b0b1391e9fd5da1115"
+          }
+        }
+      ]
+    }
+  }
+}

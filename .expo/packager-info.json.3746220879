@@ -1,0 +1,10 @@
+{
+  "packagerPort": null,
+  "packagerPid": null,
+  "webpackServerPort": null,
+  "expoServerNgrokUrl": "https://uc-ud4.drikkin.passo-a-passo.exp.direct",
+  "packagerNgrokUrl": "https://packager.uc-ud4.drikkin.passo-a-passo.exp.direct",
+  "ngrokPid": 7160,
+  "devToolsPort": 19002,
+  "expoServerPort": null
+}
