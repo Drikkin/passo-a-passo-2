@@ -10,8 +10,8 @@ export const modalTop = Platform.OS === 'ios' ? statusBarHeight : 0;
 export const Header = StyleSheet.create({
   imgBg: {
     width: width,
-    height: statusBarHeight + width*0.13,
-    paddingTop: statusBarHeight
+    height: modalTop + width*0.13,
+    paddingTop: modalTop
   },
   topRow: {
     flexDirection: 'row',
