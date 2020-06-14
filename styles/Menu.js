@@ -9,7 +9,7 @@ export const modalTop = Platform.OS === 'ios' ? statusBarHeight : 0;
 
 export const Menu = StyleSheet.create({
   menuContainer: {
-    top: statusBarHeight,
+    top: modalTop,
     position: 'absolute',
     width: width*0.66,
     bottom: 0,
