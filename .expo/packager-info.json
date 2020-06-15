@@ -2,9 +2,9 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://e4-qxv.drikkin.passo-a-passo.exp.direct",
   "packagerNgrokUrl": "https://packager.e4-qxv.drikkin.passo-a-passo.exp.direct",
-  "ngrokPid": 7872,
+  "ngrokPid": 8896,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 9540,
+  "packagerPid": 1048,
   "webpackServerPort": null
 }

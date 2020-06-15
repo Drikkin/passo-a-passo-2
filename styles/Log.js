@@ -40,7 +40,7 @@ export const Log = StyleSheet.create({
     padding: width*0.02,
     borderRadius: width*0.3,
     position: 'absolute',
-    top: modalTop ? modalTop : statusBarHeight + width*0.01,
+    top: modalTop + width*0.01,
     left: width*0.01,
   },
   logo: {
