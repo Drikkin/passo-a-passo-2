@@ -16,6 +16,7 @@ import { saveUserData } from '../actions'
 import { Notifications } from 'expo'
 import * as Permissions from 'expo-permissions';
 import removeAccents from 'remove-accents'
+import Sentry from 'sentry-expo';
 
 import { TextInputMask } from 'react-native-masked-text'
 import * as EmailValidator from 'email-validator';
@@ -70,6 +71,8 @@ class Register extends Component {
         fetchLink = `cadastrarApp.php?email=${obj.email}&telefone=${obj.telefone}&nome=${obj.nome}&senha=${obj.senha}`
     if(fcmData && fcmData.fcmToken){
       fetchLink = `cadastrarApp.php?email=${obj.email}&telefone=${obj.telefone}&nome=${obj.nome}&senha=${obj.senha}&fcmtoken=${fcmData.fcmToken}`
+      Sentry.captureMessage(`cadastrarApp.php?email=${obj.email}&fcmtoken=${fcmData.fcmToken}`)
+
     }
     fetch( ROOT_LINK + fetchLink, {
       method: 'POST',

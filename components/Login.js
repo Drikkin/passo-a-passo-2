@@ -14,7 +14,7 @@ import { connect } from 'react-redux';
 import { saveUserData, saveVouchersList } from '../actions'
 import { Notifications } from 'expo'
 import * as Permissions from 'expo-permissions';
-
+import Sentry from 'sentry-expo';
 
 // import SafariView from "react-native-safari-view";
 // var SafariView = require('react-native-safari-view');
@@ -68,6 +68,7 @@ class Login extends Component {
     if(fcmData && fcmData.fcmToken){
       console.log(fcmData);
       fetchLink = `login.php?email=${obj.email}&senha=${obj.senha}&fcmtoken=${fcmData.fcmToken}`
+      Sentry.captureMessage(`login.php?email=${obj.email}&fcmtoken=${fcmData.fcmToken}`)
     }
     console.log(fetchLink);
 

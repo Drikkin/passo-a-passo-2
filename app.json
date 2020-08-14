@@ -8,7 +8,7 @@
       "ios",
       "android"
     ],
-    "version": "2.5.3",
+    "version": "2.6.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "splash": {
@@ -19,9 +19,18 @@
     "notification": {
       "icon": "./assets/android-notif-icon.png"
     },
+    "android": {
+      "icon": "./assets/logo.png",
+      "googleServicesFile": "./google-services.json",
+      "package": "br.com.mobs.passoapasso",
+      "versionCode": 40,
+      "permissions": []
+    },
     "ios": {
       "bundleIdentifier": "br.com.agenciaprospecta.PassoAPasso",
-      "supportsTablet": false,
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "icon": "./assets/logo.png",
       "infoPlist": {
         "LSApplicationQueriesSchemes": [
           "comgooglemaps",
@@ -32,11 +41,6 @@
           "waze"
         ]
       }
-    },
-    "android": {
-      "package": "br.com.mobs.passoapasso",
-      "versionCode": 33,
-      "permissions": []
     },
     "updates": {
       "fallbackToCacheTimeout": 0

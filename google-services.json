@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "310645968645",
+    "firebase_url": "https://passo-a-passo-b9070.firebaseio.com",
+    "project_id": "passo-a-passo-b9070",
+    "storage_bucket": "passo-a-passo-b9070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310645968645:android:8c354cdf8f903b61eef16c",
+        "android_client_info": {
+          "package_name": "br.com.mobs.passoapasso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310645968645-vj0bid7lsnb4ouueg5j4s886ug1u0c99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI5GYfv9Tm80MQC23RYvU5Y8fnDpZ-t1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310645968645-vj0bid7lsnb4ouueg5j4s886ug1u0c99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310645968645-lefmdol80g4bqonujs30iso8q9tv7141.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.agenciaprospecta.PassoAPasso",
+                "app_store_id": "1156932366"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
